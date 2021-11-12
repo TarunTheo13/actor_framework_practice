@@ -26,19 +26,19 @@ class Atom {
   
 }
 
-// let myAtom = new Atom("Tarun_Atom");
+let myAtom = new Atom("Tarun_Atom");
 
-// console.log(myAtom.getSecretName());
+console.log(myAtom.getSecretName());
  
-// myAtom.addToInbox({src:'global', req:"change _secret_name", name:"Tarun2"});
-// myAtom.addToInbox({src:'global', req:"change secret_name", name:["Tarun2"]});
-// myAtom.addToInbox({src:'global', req:"change secret_name", name:"Tarun2"});
+myAtom.addToInbox({src:'global', req:"change _secret_name", name:"Tarun2"});
+myAtom.addToInbox({src:'global', req:"change secret_name", name:["Tarun2"]});
+myAtom.addToInbox({src:'global', req:"change secret_name", name:"Tarun2"});
 
-// myAtom.processInbox();
-// console.log(myAtom.getSecretName());
+myAtom.processInbox();
+console.log(myAtom.getSecretName());
 
-// myAtom.processInbox();
-// console.log(myAtom.getSecretName());
+myAtom.processInbox();
+console.log(myAtom.getSecretName());
 
-// myAtom.processInbox();
-// console.log(myAtom.getSecretName());
+myAtom.processInbox();
+console.log(myAtom.getSecretName());
